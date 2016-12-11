@@ -70,6 +70,11 @@ th, td{
   fill: #ddd;
 }
 
+.future.label {
+  font: 500 196px "Helvetica Neue";
+  fill: #75BFEB;
+}
+
 .country.label  {
   font: 500 96px "Helvetica Neue";
   fill: #ddd;

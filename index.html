@@ -21,6 +21,7 @@
         <li>Education</li>
         <li>GNI per Capita <ul><li>data not available</li></ul></li>
       </ul>
+        Note: When year is blue, the data used is projection data.
       </p></div>
   <div id="chart" style="margin:0px"> 
     <!--<div id="HDIcomp">
@@ -35,13 +36,7 @@
 <input type="range" name="points" min="1970" max="2050" step="1" value="0" id="slider-time" style="width:900px" 
        onchange="updateData(this.value);" oninput = "updateData(this.value);">
 <span id="max-time">2050</span><br>
-  &nbsp &nbsp &nbsp &nbsp &nbsp|________________________________________________________________|
-  |_________________________________________________|
 
-<!--<div id="projected">&nbsp </div> -->
-  <div id="projectedLabel1">Historical Data</div>
-
-<div id="projectedLabel2">Projected Data</div>
   <div id="buttons">
 <button id="start" onclick="drawHDI();" class="btn">HDI</button>
 <button id="start" onclick="drawLE();"class="btn">Life Expectancy</button>

@@ -385,6 +385,12 @@ d3.csv(file, function(nations) {
       dot.data(interpolateData(year)) // send in the correct year data to the dot svg
            .call(position); // call position function to calculate new positions
       label.text(year); // change label text to current year
+      if(parseInt(year) > 2015){
+          label.attr("class", "future label");
+      }
+      else{
+          label.attr("class", "year label")
+      }
   }
 
 });
