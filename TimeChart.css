@@ -138,14 +138,14 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 input[type=range]::-webkit-slider-thumb {
   box-shadow: 0px 0px 0px #000000;
-  border: 2px solid #2497E3;
-  height: 23px;
-  width: 23px;
+  border: 2px solid #8189EE;
+  height: 40px;
+  width: 8px;
   border-radius: 25px;
-  background: #FFFFFF;
+  background: #70EFAE;
   cursor: pointer;
   -webkit-appearance: none;
-  margin-top: -8.5px;
+  margin-top: -15.5px;
 }
 input[type=range]:focus::-webkit-slider-runnable-track {
   background: #C2BFB6;
@@ -222,13 +222,17 @@ input[type=range]:focus::-ms-fill-upper {
 #projectedLabel2{
     position: relative;
     left: 700px;
-    bottom: 36px;
+    height: auto;
+    width: auto;
+    bottom: 6px;
     font-size: 14px;
 }
 #projectedLabel1{
     position: relative;
+    height: auto;
+    width: auto;
     left: 240px;
-    bottom: 20px;
+    bottom: -10px;
     font-size: 14px;
 
 }
@@ -242,7 +246,7 @@ input[type=range]:focus::-ms-fill-upper {
 /* style buttons */
 #buttons{
     position: relative;
-    left: 400px;
+    left: 340px;
 }
 #descriptionText{
   text-align: center;
@@ -254,12 +258,30 @@ input[type=range]:focus::-ms-fill-upper {
     left: 220px;
 }
 #HDIcomp{
-    background-color: #9e9e9e;
+    background-color: #C0C5CE;
     position: absolute;
-    margin: 200px 0 0 1003px;
+    top: 290px;
+    right: 0px;
+    width: 220px;
+    text-align: center;
     font-size: 14px;
     color: #ffffff;
-    width: 230px;
+}
+#barColor2{
+    background-color: #75BEEB;
+    position: absolute;
+    margin: -370px 0 0 570px;
+    width: 397px;
+    height: 9px;
+    border-radius: 20px;
+}
+#barColor1{
+    background-color: #C2BFB6;
+    position: absolute;
+    margin: -370px 0 0 66px;
+    width: 509px;
+    height: 9px;
+    border-radius: 20px;
 }
 
 .btn {
