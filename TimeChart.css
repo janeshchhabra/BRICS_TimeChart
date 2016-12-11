@@ -283,6 +283,22 @@ input[type=range]:focus::-ms-fill-upper {
     height: 9px;
     border-radius: 20px;
 }
+#barColor2{
+    background-color: #75BEEB;
+    position: absolute;
+    margin: -370px 0 0 570px;
+    width: 397px;
+    height: 9px;
+    border-radius: 20px;
+}
+#barColor1{
+    background-color: #C2BFB6;
+    position: absolute;
+    margin: -370px 0 0 66px;
+    width: 509px;
+    height: 9px;
+    border-radius: 20px;
+}
 
 .btn {
   -webkit-border-radius: 16;
